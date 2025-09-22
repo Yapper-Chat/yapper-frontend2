@@ -3,21 +3,21 @@
 This is the frontend of the real-time chat system, built with ReactJS and Tailwind CSS.
 It provides the user interface for authentication, messaging, and real-time updates, while communicating with the Laravel backend API.
 
-# 🚀 Features
+## 🚀 Features
 🔐 User authentication (login/register/logout)
 💬 One-to-one messaging between users
 ⚡ Real-time updates with Laravel Echo + Pusher / WebSockets
 🎨 Responsive UI with TailwindCSS
 🔄 API integration with Laravel backend
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 Frontend Framework: React 18
 Styling: TailwindCSS
 State Management: React Context / Redux (your choice)
 Real-time: Laravel Echo + PusherJS
 Backend API: Laravel + MySQL (see backend repo)
 
-# ⚙️ Setup Instructions
+## ⚙️ Setup Instructions
 1. Clone the repo
 git clone https://github.com/yourusername/chat-frontend.git
 cd chat-frontend
