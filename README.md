@@ -1,4 +1,42 @@
-# React + TypeScript + Vite
+# 💬 Chat System Frontend (React + Tailwind)
+
+This is the frontend of the real-time chat system, built with ReactJS and Tailwind CSS.
+It provides the user interface for authentication, messaging, and real-time updates, while communicating with the Laravel backend API.
+
+# 🚀 Features
+🔐 User authentication (login/register/logout)
+💬 One-to-one messaging between users
+⚡ Real-time updates with Laravel Echo + Pusher / WebSockets
+🎨 Responsive UI with TailwindCSS
+🔄 API integration with Laravel backend
+
+# 🛠️ Tech Stack
+Frontend Framework: React 18
+Styling: TailwindCSS
+State Management: React Context / Redux (your choice)
+Real-time: Laravel Echo + PusherJS
+Backend API: Laravel + MySQL (see backend repo)
+
+# ⚙️ Setup Instructions
+1. Clone the repo
+git clone https://github.com/yourusername/chat-frontend.git
+cd chat-frontend
+
+2. Install dependencies
+npm install
+
+3. Configure environment
+
+Create a .env file in the root with:
+
+REACT_APP_API_URL=http://localhost:8000/api
+REACT_APP_PUSHER_KEY=your-pusher-key
+REACT_APP_PUSHER_CLUSTER=mt1
+
+4. Start the dev server
+npm run dev
+
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
